@@ -29,7 +29,7 @@
                     Name="contentFrame">
             <Rectangle Fill="AliceBlue"></Rectangle>
         </Frame>
-        
+
         <RelativePanel Grid.Row="0">
             <Button Name="backButton" 
                     FontFamily="Segoe MDL2 Assets" 
@@ -48,7 +48,7 @@
                     Click="hamburgerButton_Click"
                     Width="50">
             </Button>
-            
+
         </RelativePanel>
 
         <SplitView  Name="MySplitView"
@@ -59,9 +59,9 @@
                     CompactPaneLength="50"
                     HorizontalAlignment="Left"
                    >
-            
+
             <SplitView.Pane>
-                
+
                 <ListBox SelectionMode="Single"
                          Name="IconsListBox" 
                          SelectionChanged="IconsListBox_SelectionChanged"
@@ -101,7 +101,6 @@
                             <TextBlock Text="Tunniplaan"
                                        FontSize="24"
                                        Margin="20,0,0,0">
-                                       
                             </TextBlock>
                         </StackPanel>
                     </ListBoxItem>
@@ -115,7 +114,6 @@
                             <TextBlock Text="Kontaktid"
                                        FontSize="24"
                                        Margin="20,0,0,0">
-                                
                             </TextBlock>
                         </StackPanel>
                     </ListBoxItem>
